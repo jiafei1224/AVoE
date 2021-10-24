@@ -10,7 +10,8 @@
 ## AVoE Dataset
 Download the respective dataset along with the annotation from here: 
 
-[[Dataset]](https://drive.google.com/drive/folders/1nb8e63H78-FjF_ErxrtWfa0fCrvlGjPP?usp=sharing) 
+[[Dataset]](https://user-images.githubusercontent.com/51585075/138597403-16d203a5-6441-4bbb-a51b-dc51bee90e73.JPG)
+
 
 You may download down and put it into your own drive,then you can `gdown <Drive Url to upload to server>` 
 
@@ -25,7 +26,7 @@ E. Barrier
 ## System Requirements
 - Blender 2.83 with eevee engine
 - **Python 3.6**
-- External Python libraries in `PhyDNet_Add_On/requirement.txt`
+
 
 
 ## If you use AVoE, please cite the our paper:

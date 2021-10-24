@@ -1,6 +1,6 @@
 # AVoE: A Synthetic 3D Dataset on Understanding Violation of Expectation for Artificial Cognition
+![111](https://user-images.githubusercontent.com/51585075/138597425-6bc359e9-92ff-48f2-a1dc-ef1bffa143ed.JPG)
 
-![newsetup (1)](https://user-images.githubusercontent.com/51585075/126741271-45b0f2df-03ef-49c1-aab9-ad6bc505a1e7.jpg)
 
 # Paper
 

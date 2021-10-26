@@ -15,15 +15,21 @@ Download the respective dataset along with the annotation from here:
 
 You may download down and put it into your own drive,then you can `gdown <Drive Url to upload to server>` 
 
-## Dataset Statistics
-The dataset consists of five violations of expectation tasks:
+## Dataset Structure
+The dataset consists of five violations of expectation event categories:
 A. Support
 B. Occulsion
 C. Containment
 D. Collision
 E. Barrier
 
-## System Requirements
+There are 500 trials in each event category (75% Train, 15% Val, 10% Test). The `train` folder contains only expected videos while the `validation` and `test` folders contain both expected and surprising videos. Surprising and expected videos with the same stimuli have the same trial ID.
+
+Each trial folder has an `rgb.avi` which is the RGB video. The folder also has a `physical_data.json` which contains the ground truth values of features, prior rules and posterior rules. There is also a `scene_data.json` which has frame-by-frame values of the position and rotation of all entities (object, occluder, barrier, support, container) along with the instance IDs of all entities.
+
+Use `utils.py` to generate frames and videos of the depth and instance segmented images from `depth_raw.npz` and `inst_raw.npz` located in every trial folder. Do edit the settings section of `utils.py` to your needs.
+
+## Dataset Generation System Requirements
 - Blender 2.83 with eevee engine
 - **Python 3.6**
 
